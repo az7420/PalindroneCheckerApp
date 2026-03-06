@@ -1,20 +1,20 @@
 # PalindroneCheckerApp
 Objective
 
-To create a Java program that checks whether a string is a palindrome using Object-Oriented Programming by encapsulating the logic in a class.
+To create a Java program that checks a palindrome using the Strategy Pattern, allowing different palindrome algorithms to be selected dynamically.
 
 Project Flow
 
 Program starts and main() method runs.
 
-A PalindromeChecker class is created.
+A PalindromeStrategy interface is created.
 
-The class provides a checkPalindrome() method.
+Different strategies like StackStrategy and DequeStrategy implement the interface.
 
-The method checks whether the string is a palindrome.
+The strategy is selected at runtime.
 
-The result is displayed on the console.
+The program checks and prints whether the string is a palindrome.
 
-Use Case (UC11)
+Use Case (UC12)
 
-The program follows OOP principles by creating a separate PalindromeChecker class that contains the palindrome checking logic, improving encapsulation and code organization.
+The program uses the Strategy Design Pattern to dynamically choose different palindrome checking algorithms using interfaces and polymorphism.
