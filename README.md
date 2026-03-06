@@ -1,20 +1,20 @@
 # PalindroneCheckerApp
 Objective
 
-To create a Java program that checks whether a string is a palindrome using a character array and two-pointer technique.
+To create a Java program that checks whether a string is a palindrome using a Stack data structure.
 
 Project Flow
 
 Program starts and main() method runs.
 
-A string is converted into a character array (char[]).
+A string is stored in the program.
 
-Two pointers compare characters from start and end.
+Each character is pushed into the stack.
 
-If all characters match, the string is a palindrome.
+Characters are popped from the stack and compared with the original string.
 
-Result is displayed on the console.
+The result (palindrome or not) is printed.
 
-Use Case (UC4)
+Use Case (UC5)
 
-The program converts the string into a char array and uses the two-pointer approach to compare characters from the beginning and end to check if it is a palindrome.
+The program uses a Stack to reverse the characters of a string. By comparing the popped characters with the original string, it determines whether the string is a palindrome.

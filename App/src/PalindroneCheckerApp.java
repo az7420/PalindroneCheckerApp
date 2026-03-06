@@ -1,29 +1,32 @@
-public class PalindroneCheckerApp{
-    public class UseCase4PalindromeCheckerApp {
+import java.util.Stack;
 
-        public static void main(String[] args) {
+public class PalindroneCheckerApp {
 
-            String word = "madam";
-            char[] arr = word.toCharArray();
+    public static void main(String[] args) {
 
-            int start = 0;
-            int end = arr.length - 1;
-            boolean isPalindrome = true;
+        String word = "madam";
+        Stack<Character> stack = new Stack<>();
 
-            while (start < end) {
-                if (arr[start] != arr[end]) {
-                    isPalindrome = false;
-                    break;
-                }
-                start++;
-                end--;
+        // Push characters into stack
+        for (int i = 0; i < word.length(); i++) {
+            stack.push(word.charAt(i));
+        }
+
+        boolean isPalindrome = true;
+
+        // Pop characters and compare
+        for (int i = 0; i < word.length(); i++) {
+            if (word.charAt(i) != stack.pop()) {
+                isPalindrome = false;
+                break;
             }
+        }
 
-            if (isPalindrome) {
-                System.out.println(word + " is a Palindrome");
-            } else {
-                System.out.println(word + " is not a Palindrome");
-            }
+        // Print result
+        if (isPalindrome) {
+            System.out.println(word + " is a Palindrome");
+        } else {
+            System.out.println(word + " is not a Palindrome");
         }
     }
 }
