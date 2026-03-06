@@ -1,20 +1,18 @@
 # PalindroneCheckerApp
 Objective
 
-To create a Java program that checks whether a string is a palindrome using recursion.
+To create a Java program that checks whether a string is a palindrome by ignoring spaces and case differences.
 
 Project Flow
 
 Program starts and main() method runs.
 
-A recursive function compares first and last characters.
+The string is normalized (convert to lowercase and remove spaces).
 
-The function calls itself for the next inner characters.
+The program reverses and compares the string.
 
-The recursion stops at the base condition.
+If both match, it prints palindrome, otherwise not palindrome.
 
-The program prints whether the string is a palindrome.
+Use Case (UC10)
 
-Use Case (UC9)
-
-The program uses recursion to compare characters from the start and end of the string until the base condition is reached to determine if the string is a palindrome.
+The program ignores spaces and letter case by preprocessing the string using regular expressions and lowercase conversion, then checks if it is a palindrome.
