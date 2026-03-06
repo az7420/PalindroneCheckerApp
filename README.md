@@ -1,20 +1,20 @@
 # PalindroneCheckerApp
 Objective
 
-To create a Java program that checks whether a string is a palindrome using a Singly Linked List.
+To create a Java program that checks whether a string is a palindrome using recursion.
 
 Project Flow
 
 Program starts and main() method runs.
 
-The string is converted into a linked list.
+A recursive function compares first and last characters.
 
-The middle of the list is found using fast and slow pointers.
+The function calls itself for the next inner characters.
 
-The second half of the list is reversed.
+The recursion stops at the base condition.
 
-Both halves are compared to check palindrome.
+The program prints whether the string is a palindrome.
 
-Use Case (UC8)
+Use Case (UC9)
 
-The program converts the string into a singly linked list, reverses the second half, and compares both halves to determine whether the string is a palindrome.
+The program uses recursion to compare characters from the start and end of the string until the base condition is reached to determine if the string is a palindrome.
