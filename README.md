@@ -1,18 +1,20 @@
 # PalindroneCheckerApp
 Objective
 
-To create a Java program that checks whether a string is a palindrome by ignoring spaces and case differences.
+To create a Java program that checks whether a string is a palindrome using Object-Oriented Programming by encapsulating the logic in a class.
 
 Project Flow
 
 Program starts and main() method runs.
 
-The string is normalized (convert to lowercase and remove spaces).
+A PalindromeChecker class is created.
 
-The program reverses and compares the string.
+The class provides a checkPalindrome() method.
 
-If both match, it prints palindrome, otherwise not palindrome.
+The method checks whether the string is a palindrome.
 
-Use Case (UC10)
+The result is displayed on the console.
 
-The program ignores spaces and letter case by preprocessing the string using regular expressions and lowercase conversion, then checks if it is a palindrome.
+Use Case (UC11)
+
+The program follows OOP principles by creating a separate PalindromeChecker class that contains the palindrome checking logic, improving encapsulation and code organization.
