@@ -1,14 +1,16 @@
 # PalindroneCheckerApp
+Here is the **short Project Procedure for UC3**.
+
 **Objective**
-To develop a Java console application that checks whether a given string is a **palindrome** and helps understand basic Java concepts like **class, main method, strings, and conditions**.
+To create a Java console program that checks whether a string is a **palindrome by reversing the string** using a loop.
 
 **Project Flow**
 
-1. Program starts and `main()` method executes.
-2. A **hardcoded string** is defined in the program.
-3. The program checks whether the string is a palindrome.
-4. The result is printed on the console.
-5. Program ends.
+1. Program starts and `main()` method runs.
+2. A string is taken in the program.
+3. The string is **reversed using a for loop**.
+4. The original and reversed strings are **compared using `equals()`**.
+5. The program displays whether it is a **palindrome or not**.
 
-**Use Case (UC2)**
-The program checks a **hardcoded string (e.g., "madam")** and prints whether it is a **palindrome or not** using `if-else` and `System.out.println()`.
+**Use Case (UC3)**
+The program **reverses the given string and compares it with the original string**. If both are the same, it prints that the string is a **palindrome**; otherwise, it prints **not a palindrome**.
