@@ -1,20 +1,20 @@
 # PalindroneCheckerApp
 Objective
 
-To create a Java program that checks whether a string is a palindrome using a Stack data structure.
+To create a Java program that checks whether a string is a palindrome using both Queue and Stack to demonstrate FIFO and LIFO behavior.
 
 Project Flow
 
 Program starts and main() method runs.
 
-A string is stored in the program.
+Characters of the string are added to a Queue (enqueue).
 
-Each character is pushed into the stack.
+Characters are also pushed into a Stack.
 
-Characters are popped from the stack and compared with the original string.
+The program compares dequeue (Queue) with pop (Stack).
 
-The result (palindrome or not) is printed.
+If all characters match, it prints palindrome, otherwise not palindrome.
 
-Use Case (UC5)
+Use Case (UC6)
 
-The program uses a Stack to reverse the characters of a string. By comparing the popped characters with the original string, it determines whether the string is a palindrome.
+The program uses both Queue (FIFO) and Stack (LIFO) to compare characters of a string and check whether it is a palindrome.
