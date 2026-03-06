@@ -1,20 +1,20 @@
 # PalindroneCheckerApp
 Objective
 
-To create a Java program that checks whether a string is a palindrome using a Deque (Double Ended Queue).
+To create a Java program that checks whether a string is a palindrome using a Singly Linked List.
 
 Project Flow
 
 Program starts and main() method runs.
 
-Characters of the string are inserted into a Deque.
+The string is converted into a linked list.
 
-The program removes the first and last characters.
+The middle of the list is found using fast and slow pointers.
 
-Both characters are compared.
+The second half of the list is reversed.
 
-If all characters match, the string is a palindrome.
+Both halves are compared to check palindrome.
 
-Use Case (UC7)
+Use Case (UC8)
 
-The program uses a Deque to compare characters from the front and rear until the deque becomes empty to determine whether the string is a palindrome.
+The program converts the string into a singly linked list, reverses the second half, and compares both halves to determine whether the string is a palindrome.
